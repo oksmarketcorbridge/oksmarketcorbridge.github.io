@@ -16,3 +16,9 @@
 body{
     background-color: #F5E7F5;
 }
+
+img{
+    border:5px solid #F297F2;
+    width: 20%;
+    height: 20%;
+}
