@@ -17,12 +17,6 @@ body{
     background-color: #F5E7F5;
 }
 
-img{
-    border:5px solid #F297F2;
-    width: 20%;
-    height: 20%;
-}
-
 .random-button{
     display: flex;
     justify-content: center;
@@ -33,4 +27,17 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.who{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+.random-image img{
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    padding:0%;
+    justify-content: center;
+    border:5px solid #F297F2;
 }
