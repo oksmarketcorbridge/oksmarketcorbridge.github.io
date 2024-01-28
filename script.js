@@ -34,3 +34,17 @@ function loadRandomImage() {
     document.getElementById("myImg").src = images[Math.floor(Math.random() * images.length)];
     })
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+    const mostrarBtn = document.getElementById("mostrarBtn");
+    const textoMostrado = document.getElementById("textoMostrado");
+  
+    mostrarBtn.addEventListener("click", function () {
+      // Cambia el contenido del div al hacer clic en el botón
+      textoMostrado.innerHTML = "Mira amorcito, este es una primera prueba de como se veria una carta aqui, el objetivo es que tu pueda picarle al boton y poder ver una carta aqui cuando tu quieras o cuando yo te avise jaja TE AMOOO MUCHOOOO MI AMORCITOOOOO";
+      
+      // Muestra el div
+      textoMostrado.style.display = "block";
+    });
+  });
+  
