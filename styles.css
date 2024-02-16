@@ -23,7 +23,7 @@ body{
     margin-right: auto;
 }
 
-h2{
+h2, h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: x-large;
@@ -114,6 +114,17 @@ img{
     text-align: center;
     vertical-align: middle;
 }
+
+.notitas{
+    background-color: #fff;
+    width:500px;
+    height:700px;
+    border: 1px solid black;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
 /* .desc{
 
 } */
