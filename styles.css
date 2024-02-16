@@ -30,7 +30,7 @@ h2{
 }
 
 h3{
-    font-family:"Reenie Beanie",arial,sans-serif;
+    font-family: "Shadows Into Light", cursive;
     text-align: center;
     font-size: xx-large;
 }
@@ -57,7 +57,7 @@ h3{
     display:flex;
 }
 
-p{
+p:not(.p-notitas){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* text-justify: inter-word; */
     text-align: justify;
@@ -157,8 +157,8 @@ img{
 
 .p-notitas{
     font-weight: bold;
-    font-family:"Reenie Beanie",arial,sans-serif;
-    font-size: x-large;
+    font-size: larger;
+    font-family: "Shadows Into Light", cursive;
 }
 /* .desc{
 
