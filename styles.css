@@ -23,10 +23,16 @@ body{
     margin-right: auto;
 }
 
-h2, h3{
+h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: x-large;
+}
+
+h3{
+    font-family:"Reenie Beanie",arial,sans-serif;
+    text-align: center;
+    font-size: xx-large;
 }
 
 .random-image img{
@@ -116,15 +122,44 @@ img{
 }
 
 .notitas{
-    background-color: #fff;
-    width:500px;
-    height:700px;
+    background-color: #ffc;
+    width:20em;
+    height:25em;
     border: 1px solid black;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 60px;
+    padding:1em;
+    /* Firefox */
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    /* Safari+Chrome */
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    /* Opera */
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
+.notitas:hover{ 
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    position:relative;
+    z-index:5;
+}
+
+.container-notitas{
+    display:flex;
+}
+
+.separation{
+    width:100px;
+    height:100px;
+}
+
+.p-notitas{
+    font-weight: bold;
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size: x-large;
+}
 /* .desc{
 
 } */
